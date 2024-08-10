@@ -9,9 +9,12 @@
 2. cd Luxury-Test
    
 ## Before Getting Started download node module
+```sh
 npm install or npm i
+```
 
 ## Getting Started
 for running the webapp----->
-
+```sh
 npm run dev
+```
