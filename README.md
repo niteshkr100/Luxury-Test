@@ -6,8 +6,11 @@
  git clone https://github.com/niteshkr100/Luxury-Test.git
 ```
 
-2. cd Luxury-Test
-   
+2.
+```sh
+  cd Luxury-Test
+```
+
 ## Before Getting Started download node module
 ```sh
 npm install or npm i
