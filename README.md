@@ -6,7 +6,7 @@
  git clone https://github.com/niteshkr100/Luxury-Test.git
 ```
 
-2.
+2. Directory of folder
 ```sh
   cd Luxury-Test
 ```
