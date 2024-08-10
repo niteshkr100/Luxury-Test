@@ -14,21 +14,21 @@ export const products = [
   {
     id: 3,
     imageUrl: 'https://cdn.flyingdress.photo/images/styles/popup2x/desert-camel.jpg',
-    price: 100,
+    price: 200,
   },
   {
     id: 4,
     imageUrl: 'https://cdn.flyingdress.photo/images/styles/portfoliolarge2x/creek-harbor-dubai.jpg',
-    price: 150,
+    price: 350,
   },
   {
     id: 5,
     imageUrl: 'https://cdn.flyingdress.photo/images/styles/popup2x/athens-national-garden.jpg',
-    price: 100,
+    price: 400,
   },
   {
     id: 6,
     imageUrl: 'https://cdn.flyingdress.photo/images/styles/popup2x/santorini-dress-blue-domes.jpg',
-    price: 150,
+    price: 550,
   },
 ];
