@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f9fa; /* Light background color for contrast */
+  background-color: #f8f9fa; 
 }
 .heading{
   font-family:fantasy;
@@ -26,68 +26,68 @@ body {
   width: 100%;
   max-width: 700px;
   justify-content: space-between;
-  gap: 20px; /* Space between product items */
-  flex-wrap: nowrap; /* Ensure items do not wrap to a new line */
+  gap: 20px;  
+  flex-wrap: nowrap;  
 }
 
 .product {
-  flex: 1 1 calc(50% - 20px); /* Two items per row with gap */
-  background-color: #ffffff; /* White background for product cards */
-  border-radius: 12px; /* Rounded corners for modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  flex: 1 1 calc(50% - 20px); 
+  background-color: #ffffff;  
+  border-radius: 12px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
   padding: 20px;
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+  transition: transform 0.3s, box-shadow 0.3s;  
 }
 
 .product img {
   max-width: 100%;
   max-height: 200px;
-  border-radius: 8px; /* Rounded corners for images */
-  margin-bottom: 20px; /* Space between image and button */
+  border-radius: 8px;  
+  margin-bottom: 20px;  
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff; /* Primary button color */
+  background-color: #007bff;  
   color: white;
   border: none;
-  border-radius: 5px; /* Rounded corners for buttons */
+  border-radius: 5px; 
   cursor: pointer;
-  font-size: 16px; /* Slightly larger font for better readability */
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions for hover effects */
+  font-size: 16px;  
+  transition: background-color 0.3s, transform 0.2s;  
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-  transform: scale(1.05); /* Slightly scale up on hover */
+  background-color: #0056b3;  
+  transform: scale(1.05); 
 }
 
 .message {
   margin-top: 35px;
-  font-size: 18px; /* Increased font size for readability */
-  color: #333; /* Darker text color for contrast */
+  font-size: 18px;  
+  color: #333; 
   text-align: center;
   width: 100%;
 }
 
 .score {
   margin-top: 20px;
-  font-size: 20px; /* Increased font size for better visibility */
+  font-size: 20px;  
   font-weight: bold;
-  color: #007bff; /* Consistent color with the button */
+  color: #007bff;  
   text-align: center;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .product {
-    flex: 1 1 100%; /* Stacks images vertically on smaller screens */
+    flex: 1 1 100%; 
   }
 
   .product-comparison {
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Ensure there is space between stacked items */
+    gap: 20px; 
   }
 }
