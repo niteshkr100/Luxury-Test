@@ -1,3 +1,5 @@
+// static data
+
 export const products = [
   {
     id: 1,
