@@ -6,8 +6,8 @@
  git clone https://github.com/niteshkr100/Luxury-Test.git
 ```
 
-2. cd <foldername>
-
+2. cd foldername
+   
 ## Before Getting Started download node module
 npm install or npm i
 
