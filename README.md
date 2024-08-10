@@ -3,12 +3,10 @@
 1. Clone the repo
 
 ```sh
- git clone https://github.com/akshitagupta15june/Moksh.git
+ git clone https://github.com/niteshkr100/Luxury-Test.git
 ```
 
-2. Open the **index.html** file
-
-3. Have fun!
+2. cd <foldername>
 
 ## Before Getting Started download node module
 npm install or npm i
